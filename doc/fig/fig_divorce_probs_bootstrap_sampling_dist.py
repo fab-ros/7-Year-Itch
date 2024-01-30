@@ -3,7 +3,6 @@ import src.Bootstrap as Bt
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from matplotlib.patches import Patch
-from tueplots import bundles
 from tueplots.constants.color import rgb
 import os
 import sys

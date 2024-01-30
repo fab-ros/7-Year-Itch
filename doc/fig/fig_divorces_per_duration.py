@@ -1,8 +1,5 @@
-import numpy as np
-import Bootstrap as Bt
 import matplotlib.pyplot as plt
 from tueplots import bundles
-from tueplots.constants.color import rgb
 import matplotlib.colors as mcolors
 import os
 import sys

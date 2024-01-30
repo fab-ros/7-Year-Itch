@@ -22,7 +22,7 @@ class DataLoader:
         # set the relative directory path to the dataset
         current_dir = re.split(r'[\\/]', os.getcwd())
         rel_data_dir = ""
-        while current_dir[-1] != "DataLiteracy":
+        while current_dir[-1] != "7-Year-Itch":
             rel_data_dir = rel_data_dir + "../"
             current_dir = current_dir[:-1]
         self.rel_data_dir = rel_data_dir + "dat/dataset.csv"

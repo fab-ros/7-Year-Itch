@@ -11,6 +11,8 @@ if src_directory not in sys.path:
     sys.path.append(src_directory)
 from DataLoaderClass import DataLoader
 
+print(current_dir)
+
 dataloader = DataLoader()
 
 # with scaled size and dropped last duration

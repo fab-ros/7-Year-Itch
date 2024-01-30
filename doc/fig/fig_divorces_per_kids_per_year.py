@@ -1,5 +1,3 @@
-# plot for divorces per kid per year
-# code to load the dataset
 import sys
 import os
 current_dir = os.getcwd()
