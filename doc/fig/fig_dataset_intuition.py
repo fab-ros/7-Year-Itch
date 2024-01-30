@@ -64,7 +64,7 @@ ax.xaxis.set_tick_params(labelsize=15, pad=3)
 ax.yaxis.set_tick_params(labelsize=15, pad=3)
 ax.zaxis.set_tick_params(labelsize=15, pad=3)
 
-# Show the plot
+
 #plt.show()
 
 fig.savefig("fig_dataset_intuition.pdf")

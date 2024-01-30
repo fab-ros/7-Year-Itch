@@ -1,18 +1,16 @@
-import sys
-import os
-
-current_dir = os.getcwd()
-src_directory = current_dir + "/../../src/"
-if src_directory not in sys.path:
-    sys.path.append(src_directory)
-
 import numpy as np
 import Bootstrap as Bt
 import matplotlib.pyplot as plt
 from tueplots import bundles
 from tueplots.constants.color import rgb
-from DataLoaderClass import DataLoader
 import matplotlib.colors as mcolors
+import os
+import sys
+current_dir = os.getcwd()
+src_directory = current_dir + "/../../src/"
+if src_directory not in sys.path:
+    sys.path.append(src_directory)
+from DataLoaderClass import DataLoader
 
 plt.rcParams.update(bundles.icml2022(column="half", nrows=1, ncols=1, usetex=False))
 

@@ -5,7 +5,13 @@ import matplotlib.colors as mcolors
 from matplotlib.patches import Patch
 from tueplots import bundles
 from tueplots.constants.color import rgb
-from src.DataLoaderClass import DataLoader
+import os
+import sys
+current_dir = os.getcwd()
+src_directory = current_dir + "/../../src/"
+if src_directory not in sys.path:
+    sys.path.append(src_directory)
+from DataLoaderClass import DataLoader
 
 dataloader = DataLoader()
 
