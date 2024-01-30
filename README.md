@@ -1,6 +1,6 @@
 # 7-Year-Itch
 
-##Introduction
+## Introduction
 
 This repository contains the code and findings of our project report regarding the analysis of the stereotypical 7-year itch in divorces in Germany.
 
@@ -10,7 +10,7 @@ This repository contains the code and findings of our project report regarding t
 - [Analysis](#analysis)
 - [Results](#results)
 - [Usage](#usage)
-- [Authors] (#authors)
+- [Authors](#authors)
 
 
 
