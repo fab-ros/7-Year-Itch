@@ -1,15 +1,15 @@
-import numpy as np
-import src.Bootstrap as Bt
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-from matplotlib.patches import Patch
-from tueplots.constants.color import rgb
 import os
 import sys
 current_dir = os.getcwd()
 src_directory = current_dir + "/../../src/"
 if src_directory not in sys.path:
     sys.path.append(src_directory)
+import numpy as np
+import Bootstrap as Bt
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from matplotlib.patches import Patch
+from tueplots.constants.color import rgb
 from DataLoaderClass import DataLoader
 
 dataloader = DataLoader()
