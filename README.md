@@ -21,7 +21,7 @@ You can find the dataset used for the analysis in [dat](/dat).
 
 ## Analysis
 
-Our code used for the analysis can be found in [exp](/exp) and [src](/src) which is organized in jupyter notebooks and scripts respectively.
+Our code used for the analysis can be found in [exp](/exp) and [src](/src) which is organized in jupyter notebooks and scripts respectively. <br>
 Each file regards one specific analysis. 
 
 ## Results
@@ -39,6 +39,6 @@ To reproduce our analysis or explore the code, follow these steps:
 
 ## Authors
 
-lukas.hackl@student.uni-tuebingen.de
-christopher.prinz@student.uni-tuebingen.de
+lukas.hackl@student.uni-tuebingen.de <br>
+christopher.prinz@student.uni-tuebingen.de <br>
 fabian.rostomily@student.uni-tuebingen.de
